@@ -1,7 +1,11 @@
+import React from 'react';
 
-console.log('javascript');
-var number = 10;
-var string = 'hello';
-var isRad = true;
+function Login() {
+    return(
+        <div>
+            <h1>Welcome to Login</h1>
+        </div>
+    )
+}
 
-document.getElementsByClassName('box1').innerHTML = string;
+export default Login;
