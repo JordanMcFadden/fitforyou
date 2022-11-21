@@ -1,0 +1,57 @@
+.NavbarItems{ 
+    background: linear-gradient(90deg, #000000,  #696969);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fa-foursquare{
+    margin-left: 0.5 rem;
+    font-size: 1.6 rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* might change to 3*/
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    background-color: #a9a9a9;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+

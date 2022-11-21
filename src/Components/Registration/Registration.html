@@ -1,10 +1,119 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Registration Page</title>
-        <link rel="stylesheet" href="./Registration.css">
-    </head>
-    <body>
-        <p>Hello</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registration.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <title>Register Form</title>
+</head>
+<body>
+    <img src="/src/Images/Registration.jpg" alt="">
+    <div class="container">
+        <header>Sign Up</header>
+
+        <form action="#">
+            <div class="form">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="text" placeholder="Enter your password" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Confirm Password</label>
+                            <input type="text" placeholder="Confirm Password" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="details fitness">
+                    <span class="title">Fitness Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Height</label>
+                            <input type="number" placeholder="Enter height" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Weight</label>
+                            <input type="number" placeholder="Enter weight" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Goal Weight</label>
+                            <input type="number" placeholder="Enter goal weight" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gym Experience</label>
+                            <select required>
+                                <option disabled selected>Select experience level</option>
+                                <option>Beginner</option>
+                                <option>Intermediate</option>
+                                <option>Expert</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Fitness Goal</label>
+                            <input type="text" placeholder="Enter your main fitness goal" required>
+                        </div>
+
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value = "Register">
+                    </div>
+
+                    <span class="title">Already have an account? Click here</span>
+                </div> 
+            </div>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+</body>
 </html>

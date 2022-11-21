@@ -1,9 +1,13 @@
 import React from 'react';
+import './Registration.css';
+
+
+ 
 
 function Registration() {
     return(
         <div>
-            <h1>Welcome to Registration</h1>
+            <p>Hello </p>
         </div>
     )
 }
