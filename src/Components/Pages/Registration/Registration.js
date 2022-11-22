@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import "../Registration/Registration.css"
 function Registration() {
     return (
         <body>

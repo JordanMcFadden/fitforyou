@@ -1,37 +1,49 @@
 .NavbarItems{ 
-    background: linear-gradient(90deg, #000000,  #696969);
-    height: 80px;
+    background: white;
+    height: 120px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
+    align-items:center;
+    font-size: 1rem;
+    box-shadow: rgba(50,50,93,0.23) 0 30px 30px -20px;
 }
 
 .navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
+    color: red;
+    justify-self:center;
+    margin-left: 100px;
     cursor: pointer;
 }
 
 .fa-foursquare{
-    margin-left: 0.5 rem;
+    margin-left: 1.5 rem;
     font-size: 1.6 rem;
 }
 
-.nav-menu {
+.nav-leftside {
     display: grid;
-    grid-template-columns: repeat(5, auto); /* might change to 3*/
-    grid-gap: 10px;
+    grid-template-columns: repeat(6, auto);
     list-style: none;
+    grid-gap: 10px;
+    text-align: center;
+    width: 60vw;
+    justify-content: left;
+    margin-right: 2rem;
+}
+
+.nav-rightside {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* might change to 3*/
+    list-style: none;
+    grid-gap: 10px;
     text-align: center;
     width: 70vw;
-    justify-content: end;
+    justify-content: right;
     margin-right: 2rem;
 }
 
 .nav-links{
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -42,14 +54,4 @@
     transition: all 0.2s ease-out;
 }
 
-.fa-bars{
-    color: #fff;
-}
 
-.nav-links-mobile{
-    display: none;
-}
-
-.menu-icon {
-    display: none;
-}
