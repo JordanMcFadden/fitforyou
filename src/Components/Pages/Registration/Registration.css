@@ -9,9 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/src/Images/Registration.jpg');
 }
-
 .container{
     position: relative;
     max-width: 900px;
@@ -29,20 +27,6 @@ body{
     font-weight: 700;
     color: #333;
 }
-
-.container form{
-    position: relative;
-    margin-top: 16px;
-    min-height: 490px;
-    background-color: #fff;
-    overflow: hidden;
-}
-.container form .form{
-    position: absolute;
-    background-color: #fff;
-    transition: 0.3s ease;
-}
-
 form.secActive .form{
     opacity: 0;
     pointer-events: none;
@@ -132,4 +116,4 @@ form .button input:hover{
     form .fields .input-field{
         width: 100%;
     }
-}
+} 
