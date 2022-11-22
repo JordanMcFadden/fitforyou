@@ -9,13 +9,13 @@ export const MenuItems= [
     {
         title: 'Login',
         url: 'login',
-        cName: '/login'
+        cName: '/Login'
     },
     
     {
         title: 'Registration',
         url: 'register',
-        cName: '/registration'
+        cName: '/Registration'
     },
 
 ]

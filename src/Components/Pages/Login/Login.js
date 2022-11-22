@@ -2,9 +2,12 @@ import React from 'react';
 
 function Login() {
     return(
-        <div>
-            <h1>Welcome to the homescreen </h1>
+        <body>
+            <div>
+            <h1>Welcome to the Login </h1>
         </div>
+        </body>
+
     )
 }
 
