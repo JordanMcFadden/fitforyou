@@ -2,27 +2,20 @@ export const RightItems= [
 
     {
         title: 'Login',
-        url: '/Login',
+        url: '/login',
         cName: 'nav-links'
     },
     
     {
         title: 'Signup',
-        url: '/Signup',
+        url: '/register',
         cName: 'nav-links'
     },
 
     {
         title: 'About',
-        url: '/About',
+        url: '/about',
         cName: 'nav-links',
     },
-
-    {
-        title: 'Home',
-        url: '/',
-        cName: 'nav-links',
-    },
-
 
 ]

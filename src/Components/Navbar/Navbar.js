@@ -14,7 +14,7 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">FitForYou<i className="fab fa-foursquare"></i></h1>
+                <Link className="navbar-logo" to="/">FitForYou<i className="fab fa-foursquare"></i></Link>
                 <div className="leftside"></div>
                  <ul className ={this.state.clicked ? 'nav-leftside active' : 'nav-leftside'}>
                     {LeftItems.map((item, index) => {
