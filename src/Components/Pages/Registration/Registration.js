@@ -47,7 +47,7 @@ function Registration() {
                         </div>
 
                         <div className="details fitness">
-                            <span className="title">Fitness Details</span>
+                            <span className="title">Fitness Details (optional)</span>
 
                             <div className="fields">
                                 <div className="input-field">
@@ -96,7 +96,7 @@ function Registration() {
                                 <input type="submit" value="Register"></input>
                             </div>
 
-                            <span className="title">Already have an account? Click here</span>
+                            <span className="account-quote">Already have an account? Click here</span>
                         </div>
                     </div>
                 </form>

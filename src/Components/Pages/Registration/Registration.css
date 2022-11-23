@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    max-width: 900px;
+    max-width:1900px;
     width: 100%;
     border-radius: 6px;
     padding: 30px;
@@ -20,11 +20,12 @@
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
 .container header{
-    position: relative;
+    position: fixed;
+    top:160px;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    color: #333;
+    color: black;
 }
 form.secActive .form{
     opacity: 0;
@@ -37,7 +38,7 @@ form.secActive .form{
     font-size: 16px;
     font-weight: 700;
     margin: 6px 0;
-    color: #333;
+    color: black;
 }
 .container form .fields{
     display: flex;
@@ -54,7 +55,7 @@ form .fields .input-field{
 .input-field label{
     font-size: 12px;
     font-weight: 700;
-    color: #2e2e2e;
+    color: black;
 }
 .input-field input, select{
     outline: none;
@@ -81,10 +82,14 @@ form .fields .input-field{
 form .button{
     height: 45px;
     margin: 50px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
 }
 form .button input{
     height: 100%;
-    width: 100%;
+    width: 30%;
     border-radius: 5px;
     border: none;
     color: #fff;
@@ -99,6 +104,14 @@ form .button input:hover{
    background: grey;
 }
 
+.container form .account-quote{
+    height: 45px;
+    margin: 50px 0;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    color: black;
+}
 @media (max-width: 750px) {
     .container form{
         overflow-y: scroll;

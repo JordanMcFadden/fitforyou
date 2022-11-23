@@ -4,20 +4,20 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     box-shadow: rgba(50,50,93,0.23) 0 30px 30px -20px;
 }
 
 .navbar-logo {
     color: red;
-    justify-self:center;
+    justify-self: start;
     margin-left: 100px;
     cursor: pointer;
 }
 
 .fa-foursquare{
-    margin-left: 1.5 rem;
-    font-size: 1.6 rem;
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
 }
 
 .nav-leftside {
@@ -27,8 +27,7 @@
     grid-gap: 10px;
     text-align: center;
     width: 60vw;
-    justify-content: left;
-    margin-right: 2rem;
+    justify-content: center;
 }
 
 .nav-rightside {
@@ -39,7 +38,7 @@
     text-align: center;
     width: 70vw;
     justify-content: right;
-    margin-right: 2rem;
+    margin-right: 20rem;
 }
 
 .nav-links{

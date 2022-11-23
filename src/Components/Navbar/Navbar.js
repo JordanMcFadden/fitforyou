@@ -14,15 +14,15 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">FitForYou <i className="fab fa-foursquare"></i></h1>
+                <h1 className="navbar-logo">FitForYou<i className="fab fa-foursquare"></i></h1>
                 <div className="leftside"></div>
                  <ul className ={this.state.clicked ? 'nav-leftside active' : 'nav-leftside'}>
                     {LeftItems.map((item, index) => {
                      return (
                         <li key ={index}>
-                             <a className={item.cName} href = {item.url}>
+                             <Link className={item.cName} to = {item.url}>
                                 {item.title} 
-                            </a>
+                            </Link>
                          </li>
                         )
                     })}
@@ -33,9 +33,9 @@ class Navbar extends Component {
                     {RightItems.map((item, index) => {
                      return (
                         <li key ={index}>
-                             <a className={item.cName} href = {item.url}>
+                             <Link className={item.cName} to = {item.url}>
                                 {item.title} 
-                            </a>
+                            </Link>
                          </li>
                         )
                     })}
