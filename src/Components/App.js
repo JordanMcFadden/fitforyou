@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import Layout from './Components/Layout/Layout';
-import Login from './Components/Pages/Login/Login';
-import Registration from './Components/Pages/Registration/Registration'
-import Home from './Components/Pages/Home/Home';
+import Navbar from './Navbar/Navbar';
+import Layout from './Layout/Layout';
+import Login from './Pages/Login/Login';
+import Registration from './Pages/Registration/Registration'
+import Home from './Pages/Home/Home';
 import {Routes, Route} from 'react-router-dom';
 
 
